@@ -6,8 +6,8 @@ int main() {
 	string password;
 	string kucukharfler = "abcdefghijklmnoprstuwvyqz";
 	string buyukharfler = "ABCDEFGHIJKLMNOPRSTUWVYQZ";
-	string sayýlar = "1234567890";
-	string semboller = "£[&]%|-{#}@$/_";
+	string sayilar = "1234567890";
+	string semboller = "Â£[&]%|-{#}@$/_";
 
 	string BenimEklediklerim = "";
 	int uzunluk;
@@ -16,7 +16,7 @@ int main() {
 	srand((unsigned)time(NULL));
 	int sayi;
 	int i = 0;
-	string tumu = kucukharfler + buyukharfler + sayýlar + semboller + BenimEklediklerim;
+	string tumu = kucukharfler + buyukharfler + sayilar + semboller + BenimEklediklerim;
 
 	while (i < uzunluk) {
 		sayi = (rand() % tumu.length());
